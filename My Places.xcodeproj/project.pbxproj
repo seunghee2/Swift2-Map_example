@@ -13,6 +13,7 @@
 		1E3292381D3F277100F7DA53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E3292371D3F277100F7DA53 /* Assets.xcassets */; };
 		1E32923B1D3F277100F7DA53 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E3292391D3F277100F7DA53 /* LaunchScreen.storyboard */; };
 		1E3292431D3F285800F7DA53 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E3292421D3F285800F7DA53 /* CoreLocation.framework */; };
+		1E3292451D3F2ACB00F7DA53 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E3292441D3F2ACB00F7DA53 /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		1E32923A1D3F277100F7DA53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1E32923C1D3F277100F7DA53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1E3292421D3F285800F7DA53 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		1E3292441D3F2ACB00F7DA53 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,8 +63,9 @@
 				1E3292301D3F277100F7DA53 /* AppDelegate.swift */,
 				1E3292321D3F277100F7DA53 /* ViewController.swift */,
 				1E3292341D3F277100F7DA53 /* Main.storyboard */,
-				1E3292371D3F277100F7DA53 /* Assets.xcassets */,
 				1E3292391D3F277100F7DA53 /* LaunchScreen.storyboard */,
+				1E3292441D3F2ACB00F7DA53 /* TableViewController.swift */,
+				1E3292371D3F277100F7DA53 /* Assets.xcassets */,
 				1E32923C1D3F277100F7DA53 /* Info.plist */,
 			);
 			path = "My Places";
@@ -140,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1E3292331D3F277100F7DA53 /* ViewController.swift in Sources */,
+				1E3292451D3F2ACB00F7DA53 /* TableViewController.swift in Sources */,
 				1E3292311D3F277100F7DA53 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
