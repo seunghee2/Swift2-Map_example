@@ -12,6 +12,7 @@
 		1E3292361D3F277100F7DA53 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E3292341D3F277100F7DA53 /* Main.storyboard */; };
 		1E3292381D3F277100F7DA53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E3292371D3F277100F7DA53 /* Assets.xcassets */; };
 		1E32923B1D3F277100F7DA53 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E3292391D3F277100F7DA53 /* LaunchScreen.storyboard */; };
+		1E3292431D3F285800F7DA53 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E3292421D3F285800F7DA53 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		1E3292371D3F277100F7DA53 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1E32923A1D3F277100F7DA53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1E32923C1D3F277100F7DA53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E3292421D3F285800F7DA53 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +31,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E3292431D3F285800F7DA53 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,6 +41,7 @@
 		1E3292241D3F277000F7DA53 = {
 			isa = PBXGroup;
 			children = (
+				1E3292421D3F285800F7DA53 /* CoreLocation.framework */,
 				1E32922F1D3F277100F7DA53 /* My Places */,
 				1E32922E1D3F277100F7DA53 /* Products */,
 			);
@@ -286,6 +290,7 @@
 				1E3292411D3F277100F7DA53 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
